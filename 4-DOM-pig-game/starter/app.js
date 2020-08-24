@@ -24,3 +24,9 @@ var x = document.querySelector('#score-0').textContent;
 console.log(x);
 
 document.querySelector('.dice').style.display = 'none';
+
+function btn() {
+    alert('You have clicked me!');
+};
+
+document.querySelector('.btn-roll').addEventListener('click', btn);

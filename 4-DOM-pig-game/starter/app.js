@@ -29,4 +29,6 @@ function btn() {
     alert('You have clicked me!');
 };
 
-document.querySelector('.btn-roll').addEventListener('click', btn);
+document.querySelector('.btn-roll').addEventListener('click', function() {
+    alert('You have clicked me!!!');
+});

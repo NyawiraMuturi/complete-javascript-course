@@ -34,7 +34,7 @@ document.querySelector('.btn-roll').addEventListener('click', function() {
         */
         if (dice1 !== 1 && dice2 !== 1) {
             // add score
-            roundScore += dice;
+            roundScore += dice1 + dice2;
             document.querySelector('#current-' + activePlayer).textContent = roundScore;
         } else {
             // Next player
